@@ -3,7 +3,7 @@ angular.module("saturdayApp", ['uiRouter'])
   $urlRouterProvider.otherwise('/home');
 
   $stateProvider
-  .state('/home', {
+  .state('home', {
     url: '/home',
     templateUrl: '/views/home.html'
   });
